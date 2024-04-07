@@ -1,0 +1,175 @@
+.top-bar {
+    padding: 1rem 0;
+}
+
+.btn-light {
+    background-color: #fff;
+    border-color: #dee2e6;
+    color: #212529;
+}
+
+.btn-light:hover {
+    border-color: #c1c9d0;
+    color: #212529;
+
+}
+
+.btn-light:hover i {
+    color: #0d6efd;
+}
+
+.btn-light i {
+    color: #9da1a7;
+}
+
+.navbar {
+    background-color: #A34343;
+}
+
+.search {
+    background-color: #A34343;
+    color: white;
+}
+
+.logo {
+    color: #A34343;
+}
+
+.logo:hover {
+    color: #A34343;
+}
+
+.icons:hover {
+    color: #A34343;
+}
+
+.text-end i {
+    margin-right: 5px;
+}
+
+.nav-link {
+    color: #A34343;
+}
+
+.nav-pills .active {
+    background-color: #A34343 !important;
+}
+
+.slider__nav {
+    max-height: 250px;
+}
+
+aside .nav-link:hover {
+    background-color: #A34343;
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+
+@media (min-width: 1200px) {
+    .slider__nav {
+        max-height: 300px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .slider__nav {
+        max-height: 350px;
+    }
+}
+
+/* cards */
+
+.card {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+}
+
+.card-body {
+    padding: 0 10px 10px 10px;
+    text-align: center;
+}
+
+.card-body .card-text {
+    text-decoration: none;
+    color: #A34343;
+    font-size: 19px;
+}
+
+.card-body .card-text:hover {
+    text-decoration: underline;
+}
+
+.card i {
+    color: grey;
+}
+
+.card i:hover {
+    color: #A34343;
+    transition: .3s ease-in-out;
+}
+
+.resim {
+    border-bottom: 1px solid grey;
+}
+
+/* footer */
+footer {
+    background-color: #A34343;
+}
+
+
+/* details */
+.breadcrumb a {
+    color: #fff;
+    opacity: .75;
+}
+
+.breadcrumb .breadcrumb-item {
+    color: #fff;
+}
+
+/* gallery */
+.gallery-wrap .img-big-wrap {
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 16px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.gallery-wrap .img-big-wrap a img {
+    text-align: center;
+}
+
+.thumbs-wrap {
+    text-align: center;
+}
+
+.gallery-wrap .thumbs-wrap a {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #dde2e6;
+    border-radius: 10px;
+    margin: 3px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.gallery-wrap .thumbs-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: zoom-in;
+}
+
+.checked {
+    color: orange;
+}
